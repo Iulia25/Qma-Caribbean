@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+#links-cont{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+div div a:nth-child(1) {
+	padding-right: 150px;
+}
+
+a{
+	text-decoration: none;
+}
+
+#main{
+	margin: 10px;
+}
+
+#images-cont{
+	display: grid;
+	grid-template-columns: 10% 30% 30% 30%;
+}
+
+#images-cont div{
+	height: 220px;
+	margin-left:10px ;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	color: #fff;
+	padding-right: 20px;
+}
+
+#images-cont div:nth-child(1){
+	background: url("https://images.squarespace-cdn.com/content/v1/58cb5bbd8419c210934104df/1490649527993-T59YEKSRZPC3G0B4IV54/ke17ZwdGBToddI8pDm48kMR1yAHb8bPoH1-OdajP2rZZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpzbvthoX9IjomYJNoBj-i9EAwEsGPa3SMsVHAfnyHyoasb1UdTyIF5TA_NlWorOMS8/queens-museum-of-art-logo.png?format=1000w");
+	background-size: contain;
+	background-repeat: no-repeat;
+	transform: rotate(90deg) translateY(80px) scale(1.2);
+}
+
+#images-cont div:nth-child(2){
+	background: url("https://images.squarespace-cdn.com/content/v1/58444715be6594fbdeb9de9b/1536467885034-BUBEZTDNYZ7QD7OKUTT1/ke17ZwdGBToddI8pDm48kNF-jLDEhLi6dPEIa8zhnQZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Uaz5uAvYWHqq83Y7zp7XuscOobP8GbW9gaxR3zy27nxFqR5urdl8uaCXV_OCF-QaQw/Caribbean+Metro1.jpg");
+	background-size: cover;
+	border: 1px solid #000;
+}
+
+#images-cont div:nth-child(3){
+	background: url("https://media.kasperskydaily.com/wp-content/uploads/sites/92/2019/08/30094529/internet-in-space-featured.jpg");
+	background-size: cover;
+	border: 1px solid #000;
+}
+
+#images-cont div:nth-child(4){
+	background: url("https://cdn.britannica.com/51/94151-050-99189B61/Barn.jpg");
+	background-size: cover;
+	border: 1px solid #000;
+}
+
+
+header{
+	background-color: red;
+}
+
+header ol{
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+
+header li{
+	padding: 20px;
+}
+
+header a{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#two-parts{
+	display: flex;
+	margin-top: 30px;
+}
+
+#left{
+	display: flex;
+	flex-direction: column;
+	margin-right: 20px;
+}
+
+#left img{
+	width: 300px;
+	margin-bottom:30px ;
+}
+
+input{
+	margin: 20px 0;
+	padding: 8px;
+	out
+}
+
+button{
+	background: red;
+	color: #fff;
+	padding: 10px;
+	border: none;
+}
+
+#right{
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-column-gap: 20px;
+	border: 2px solid #000;
+	padding: 10px;
+}
+
+.top{
+	text-transform: uppercase;
+}
